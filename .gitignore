@@ -4,3 +4,7 @@
 node_modules
 dist
 .cache
+
+# Ignore the following
+.DS_Store
+.htaccess
