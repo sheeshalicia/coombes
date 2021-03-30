@@ -226,7 +226,7 @@ h2, h3{
 }
 
 .services{
-  background-color: #f2f2f2;
+  background-color: #e8e8e8;
 }
 .services-content-wrapper{
   display: flex;
@@ -416,12 +416,86 @@ header h1{
 
 .contact .social-icons img{
   width: 25%;
+}
+
+}
 
 @media only screen and (min-width: 1024px) {
 /* ====== Desktop Styles ======= */
 
 .content-wrapper{
-  max-width: 900px;
+  max-width: 1200px;
+}
+
+header .content-wrapper{
+  min-height: 900px;
+}
+
+header h1{
+  font-size: 4em;
+  margin-right: 100px;
+}
+
+h2{
+  font-size: 2.5em;
+}
+
+h3{
+  font-size: 2.185em;
+}
+
+h4{
+  font-size: 1.75em;
+}
+
+p{
+  font-size: 1.375em;
+}
+.project-content-wrapper, .middle-project-content-wrapper{
+  align-items: center;
+  justify-content: center;
+}
+
+.project-title, .project-description{
+  width: 100%;
+  }
+
+.project-text{
+  width: 40%;
+  margin-left: 30px;
+}
+
+.project-image{
+  width: 40%;
+}
+
+.about .headshot{
+  width: 48%;
+  padding-right: 30px;
+}
+
+.about .bio{
+  width: 100%;
+}
+.about-text{
+  width: 40%;
+}
+
+.services li{
+  width: 25%;
+  padding: 30px;
+}
+
+.contact p{
+  width: 100%;
+  text-align: center;
+}
+
+.contact .social-icons img{
+  width: 30%;
+  padding-top: 30px;
+}
+
 }
 
 @media print,
