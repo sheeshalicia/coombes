@@ -131,7 +131,7 @@ h2{
 }
 
 h3{
-  font-size: 2em;
+  font-size: 1.875em;
   color: #333333;
   margin: 0;
 }
@@ -158,7 +158,7 @@ img{
 .content-wrapper {
   width: 90%;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +198,7 @@ header h1{
 }
 
 h2, h3{
-  padding: 20px 0 10px 0;
+  padding: 10px 0 0 0;
 }
 
 .project-content-wrapper{
@@ -207,28 +207,22 @@ h2, h3{
 }
 
 .middle-project-content-wrapper{
+  width: 90%;
   border-top: 1px #c0c0c0 solid;
   border-bottom: 1px #c0c0c0 solid;
   padding: 20px 0;
 }
 
-.contact .social-icons{
+.project-image{
+  width: 90%;
+  padding-bottom: 10px;
+}
+
+.about .headshot{
   display: flex;
-  flex-direction: row;
-}
-
-.contact h3{
-  width: 100%;
-  text-align: center;
-}
-
-.contact .social-icons img{
-  width: 25%;
+  align-items: center;
+  width: 90%;
   padding: 20px 0;
-}
-
-.contact .social-icons a{
-  text-align: center;
 }
 
 .services{
@@ -254,9 +248,32 @@ h2, h3{
 }
 
 .services li{
-  width: 70%;
+  width: 65%;
   padding: 10px 0;
   text-align: center;
+}
+
+.contact .social-icons{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact h3{
+  width: 100%;
+  text-align: center;
+}
+
+.contact .social-icons img{
+  width: 35%;
+  padding: 20px 0;
+}
+
+.contact .social-icons a{
+  text-align: center;
+}
+
+footer .copyright p{
+  font-size: .75em;
 }
 
 /* ==========================================================================
@@ -351,8 +368,54 @@ h2, h3{
 /* ====== Tablet Styles ======= */
 
 .content-wrapper {
-  max-width: 670px;
+  max-width: 740px;
+  padding: 30px 0;
 }
+
+header .content-wrapper{
+  min-height: 500px;
+  max-width: none;
+}
+
+header h1{
+  font-size: 2.5em;
+  margin-right: 30px;
+}
+
+.project-content-wrapper, .middle-project-content-wrapper{
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.project-image{
+  padding: 30px 0;
+}
+
+.project-title, .project-description, .about .bio, .services li{
+  width: 49%;
+}
+
+.about .headshot{
+  width: 47%;
+  padding-right: 20px;
+}
+
+.about .bio h3{
+  width: 90%;
+}
+
+.services li{
+  width: 45%;
+  padding: 15px;
+}
+
+.services img{
+  width: 25%;
+}
+
+.contact .social-icons img{
+  width: 25%;
 
 @media only screen and (min-width: 1024px) {
 /* ====== Desktop Styles ======= */
