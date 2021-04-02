@@ -87,6 +87,7 @@ textarea {
    Author's custom styles
    ==========================================================================
 /* ==Borders for Building===
+
 .content-wrapper {
  border: 1px red solid;
 }
@@ -98,7 +99,6 @@ textarea {
 .project-description, .services ul, .services li, .about .bio{
   border: 1px yellow solid;
 }
-
 == end of Borders for Building*/
 
 /* ==General Styles== */
@@ -182,7 +182,7 @@ footer {
 
 header .content-wrapper{
   background-color:#b42a4c;
-  background: url(../img/tulips-a-mug-hero.jpeg);
+  background: url('../img/tulips-a-mug-hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -191,7 +191,6 @@ header .content-wrapper{
   align-items: flex-start;
   justify-content: flex-end;
 }
-
 
 /* ==Mobile Styles== */
 
@@ -232,29 +231,21 @@ h2, h3{
   background-color: #e8e8e8;
 }
 .services-content-wrapper{
+  width: 80%;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
-.services img{
-  width: 30%;
-  padding: 5px 0;
-}
 
-.services ul{
-  list-style-type: none;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  padding: 0;
+.services p{
+  padding: 10px 10px;
   margin: 0;
 }
 
-.services li{
-  width: 65%;
-  padding: 10px 0;
-  text-align: center;
+ .services img{
+  width: 35%;
+  padding: 30px 0 0 0;
 }
 
 .contact .social-icons{
@@ -400,7 +391,7 @@ header h1{
   padding: 30px 0;
 }
 
-.project-title, .project-description, .about .bio, .services li{
+.project-title, .project-description, .about .bio{
   width: 49%;
 }
 
@@ -412,18 +403,16 @@ header h1{
 .about .bio h3{
   width: 90%;
 }
-
-.services ul{
-  justify-content: space-between;
+.services .content-wrapper{
+  justify-content: space-around;
+  align-items: flex-start;
 }
-
-.services li{
+.services-content-wrapper{
   width: 45%;
-  padding: 10px;
 }
 
-.services img{
-  width: 25%;
+.services p{
+  padding: 15px 10px;
 }
 
 .contact .social-icons img{
@@ -437,6 +426,7 @@ header h1{
 
 .content-wrapper{
   max-width: 900px;
+  justify-content: space-between;
 }
 
 header .content-wrapper{
@@ -465,7 +455,7 @@ p{
 }
 .project-content-wrapper, .middle-project-content-wrapper{
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .project-title, .project-description{
@@ -473,29 +463,38 @@ p{
   }
 
 .project-text{
-  width: 40%;
+  width: 45%;
   margin-left: 10px;
 }
 
 .project-image{
-  width: 40%;
+  width: 45%;
+}
+
+.about .content-wrapper{
+  justify-content: space-between;
 }
 
 .about .headshot{
-  width: 40%;
+  width: 45%;
   padding-right: 30px;
 }
 
 .about .bio{
-  width: 40%;
-}
-.about-text{
-  width: 80%;
+  width: 45%;
 }
 
-.services li{
-  width: 25%;
-  padding: 30px;
+.services-content-wrapper{
+  width: 32%;
+}
+
+.services img{
+  width: 30%;
+  padding: 30px 0 0 0;
+}
+
+.services p{
+  padding: 20px;
 }
 
 .contact p{
