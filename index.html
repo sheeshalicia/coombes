@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>website of your dreams</title>
+  <title>Alicia Coombes, Web Developer</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,58 +24,78 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YRM7QKLHCC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YRM7QKLHCC');
+</script>
+<script src="js/main.js" defer></script>
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
 <header>
     <div class="content-wrapper">
-        <div class="hero-area">
-          <h1>&lt;hello world!/&gt;</h1>
-        </div>
-    </div>
+      <div class="hero-area">
+        <h1>&lt;hello world!/&gt;</h1>
+        <h2>I'm Alicia, a web developer.</h2>
+      </div><!--hero-area end-->
 </header>
 
 <main>
+
+<section class="about">
   <div class="content-wrapper">
-    <h2>dream websites.</h2>
-<h4>Artists, small companies, solo acts, and other rockstars like you need to be able to share what you do with the world so that you can do more of it.</h4><p> I can help you focus on doing what you love by doing what <i>*I*</i> love—telling well-crafted stories about fascinating people and the delightful, impactful things you do.</p>
-</div>
+      <h2>about me.</h2>
+
+      <div class="headshot">
+      <img src="img/alicia-headshot.jpg" alt="alicia"/>
+      </div>
+
+        <div class="bio">
+          <p>In a previous life, I was a theater director and producer with "day jobs" throughout the Bay Area professional theater world. I have worked closely with various theater's artistic directors, graphic designers, and web developers on three major website revamps—each more complicated than the last—and have often been tasked with managing content on websites while wishing I knew more about coding so that I could take matters into my own hands!</p><p>Last year, when theaters went dark, I got to work learning the skills I'd wished I had over the last decade, and can’t wait to continue growing my skills and newfound knowledge.</p>
+      </div>
+  </div><!--end content-wrapper-->
+</section>
 
 <section class="portfolio">
   <div class="content-wrapper">
     <h2>portfolio.</h2>
       <div class="project-content-wrapper">
           <div class="project-image">
-            <a href="https://kristalane.github.io/kristalane/"><img src="img/krista-thumbnail.png" alt="krista-website"/></a>
+            <a href="https://kristalane.onrender.com/" target = "_blank"><img src="img/krista-thumbnail.png" alt="krista-website"/></a>
           </div>
 
           <div class="project-text">
               <div class="project-title">
                 <h3>Krista Lane, People Consultant</h3>
-                <h4>HTML &amp; CSS</h4>
+                <h4>HTML, CSS,  &amp; Javascript</h4>
               </div>
 
               <div class="project-description">
-                <p>I worked closely with Krista on messaging and moodboards for her new consulting business, and hand-coded a temporary landing page while we work on a custom multi-page Wordpress version (in progress, coming soon!) </p>
+                <p>I worked closely with Krista on messaging and moodboards for her new consulting business, and hand-coded a temporary landing page while we work on a final version with CMS integration.</p>
               </div>
             </div><!--end project-text-->
         </div><!--end project-content-wrapper-->
 
   <div class="middle-project-content-wrapper">
         <div class="project-image">
-            <a href="https://github.com/sheeshalicia/unplugged"><img src="img/unplugged-thumbnail.png" alt="unplugged-website"/></a>
+            <a href="https://sheeshalicia.github.io/github-repo-gallery/" target = "_blank"><img src="img/gh-gallery-thumbnail.png" alt="github-repo-gallery"/></a>
         </div>
 
         <div class="project-text">
           <div class="project-title">
-            <h3>Unplugged Retreat</h3>
-                <h4>HTML &amp; CSS</h4>
+            <h3>Github Repo Gallery</h3>
+                <h4>Javascript</h4>
         </div>
 
         <div class="project-description">
-            <p>This is a hand-coded final project for responsive web development class, using Photoshop comps and with minimal assistance from instructors.</p>
+            <p>This project highlights the culmination of learning the fundamentals of Javascript: with a function that fetches data from Github's API, a search function, and several event listeners and handlers.</p>
         </div>
         </div><!--end project-text-->
 
@@ -83,17 +103,17 @@
 
   <div class="project-content-wrapper">
       <div class="project-image">
-          <a href="https://github.com/sheeshalicia/203-accelerate"><img src="img/accelerate-thumbnail.png" alt="accelerate-website"/></a>
+          <a href="https://mdor5.csb.app/" target = "_blank"><img src="img/sticky-note-thumbnail.png" alt="sticky-note-app"/></a>
       </div>
 
       <div class="project-text">
         <div class="project-title">
-          <h3>Accelerate Marketing</h3>
-              <h4>Wordpress, PHP</h4>
+          <h3>Sticky Note App</h3>
+              <h4>React, Javascript</h4>
       </div>
 
       <div class="project-description">
-          <p>This is an advanced project; building a Wordpress site from a very minimal starter template. This project included making php and template updates in local files, pushing changes to a staging environment, and deploying to live.</p>
+          <p>This is a project using React. Create sticky notes with new note button, edit them later, delete with a click, and save to your browser. <a href ="https://codesandbox.io/s/github/sheeshalicia/sticky-notes/tree/main/?file=/public/index.html">See the code on code sandbox.</a></p>
       </div>
     </div><!--end project-text-->
 
@@ -101,57 +121,33 @@
 </div><!--end content-wrapper-->
 </section>
 
-
-<section class="about">
-  <div class="content-wrapper">
-      <h2>i'm alicia.</h2>
-
-      <div class="headshot">
-      <img src="img/alicia-headshot.jpg" alt="alicia"/>
-      </div>
-
-        <div class="bio">
-        <p>I love to tell stories. My background in professional theater has honed a host of superpowers: working cleanly yet quickly under intense deadlines, collaborating across teams of all sizes and specialties, and balancing priorities with budget. I've worked in marketing and content management for over 7 years, and can help you craft a message that shines.</p>
-      </div>
-          <p>My heart loves to support people whose work brings joy and beauty into their world. My brain loves to find and fix problems, execute tricky techniques, and make processes run smoother.</p>
-
-    <div class="about-text">
-      <h3>Together, we will find stylish and interesting ways to tell your story and charm your audience.</h3>
-
-    </div><!--end about-text-->
-  </div><!--end content-wrapper-->
-</section>
-
 <section class="services">
   <div class="content-wrapper">
-    <h2>services.</h2>
+    <h2>skills.</h2>
 
        <div class=services-content-wrapper>
-         <img src="img/011-clipboard.png" alt="clipboard"/> <p>You have unique goals, needs, and interests; let's discuss how I can best create a website that you'll love! </p></div>
+         <img src="img/011-clipboard.png" alt="clipboard"/> <p>I love using HTML and CSS to create sites that inspire. </p></div>
 
          <div class=services-content-wrapper>
-           <img src="img/006-window.png" alt="window"/><p> I can design and build you a single-page information hub that looks great on all device sizes (a great option if you don't need it to be updated often).</p></div>
+           <img src="img/009-magic.png" alt="window"/><p>As a former project manager and content creator, I bring a unique perspective to my work.</p></div>
 
          <div class=services-content-wrapper>
-           <img src="img/008-tools.png"/ alt="tools"><p>I can audit and touch up a drag-and-drop site you already own (and discuss alternatives if you'd like something different).</p></div>
+           <img src="img/010-paintbrush-palette.png" alt="paintbrush"/><p>I use tools like Adobe Creative Suite and Figma to help visualize clean & organized code.</p></div>
 
-         <div class=services-content-wrapper>
-           <img src="img/010-paintbrush-palette.png" alt="paintbrush"/><p>Together we can create a brand-new site using a customized Wordpress template that will enable you to update your own content easily.</p></div>
+           <div class=services-content-wrapper>
+            <img src="img/008-tools.png"/ alt="tools"><p>I'm learning Javascript & React to build delightful and interactive UIs.</p></div>
 
-         <div class=services-content-wrapper>
-           <img src="img/004-calculator.png" alt="calculator"/><p> I'm happy to work with most budgets and timelines, finding the right balance for your needs. </p></div>
-
-        <div class=services-content-wrapper>
-          <img src="img/012-light-bulb.png" alt="lightbulb"/><p>I have tons of ideas, and so do you. Reach out and let's talk about your goals and dreams—and how I can help you achieve them.</p></div><!--end services-content-wrapper-->
+            <div class=services-content-wrapper>
+          <img src="img/012-light-bulb.png" alt="lightbulb"/><p>I am creative, adaptive, and always hungry to learn more. </p></div><!--end services-content-wrapper-->
 
    </div>
  </section>
 
-
 <section class="contact">
+<div id=#contact>
 <div class="content-wrapper">
 <h2>contact.</h2>
-      <p>Follow me or send an email to connect!</p>
+      <p>Reach out...I would love to connect with you!</p>
       <div class="social-icons">
 
         <a href="mailto: me@aliciacoombes.com"><img src="img/001-email.png" alt="email me"/></a>
@@ -162,7 +158,7 @@
 
         <a href="https://www.github.com/sheeshalicia" target="_blank"> <img src="img/007-octocat.png" alt="github"/></a>
       </div>
-
+    </div><!--end #contact id div-->
   </div><!--end content-wrapper-->
 </section>
 

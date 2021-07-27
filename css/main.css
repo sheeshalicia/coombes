@@ -175,7 +175,6 @@ img{
 /* ==Base Header & Footer Styles== */
 
 footer {
-  text-align: center;
   width: 100%;
   background-color: #90CB98;
 }
@@ -187,7 +186,9 @@ header .content-wrapper{
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  min-height: 300px;
+  margin: 0 auto;
+  min-height: 400px;
+  width: 100%;
   align-items: flex-start;
   justify-content: flex-end;
 }
@@ -197,6 +198,14 @@ header .content-wrapper{
 header h1{
   font-size: 1.75em;
   margin-right: 10px;
+  text-align: right;
+  line-height: 0%;
+}
+
+header h2{
+  margin-right: 10px;
+  font-size: 1em;
+  line-height: 0%;
 }
 
 h2, h3{
@@ -228,10 +237,10 @@ h2, h3{
 }
 
 .services{
-  background-color: #e8e8e8;
+  background-color: #fff;
 }
 .services-content-wrapper{
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -244,13 +253,18 @@ h2, h3{
 }
 
  .services img{
-  width: 35%;
+  width: 25%;
   padding: 30px 0 0 0;
+}
+
+.contact{
+  background-color: #e8e8e8;
 }
 
 .contact .social-icons{
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 .contact h3{
@@ -263,16 +277,13 @@ h2, h3{
   padding: 20px 0;
 }
 
-.contact .social-icons a{
-  text-align: center;
-}
-
 footer .copyright p{
   font-size: .75em;
 }
 
 footer .content-wrapper{
   padding: 5px 0;
+  justify-content: center;
 }
 
 /* ==========================================================================
@@ -403,6 +414,11 @@ header h1{
 .about .bio h3{
   width: 90%;
 }
+
+.services img{
+  width: 25%;
+}
+
 .services .content-wrapper{
   justify-content: space-around;
   align-items: flex-start;
@@ -426,7 +442,6 @@ header h1{
 
 .content-wrapper{
   max-width: 900px;
-  justify-content: space-between;
 }
 
 header .content-wrapper{
