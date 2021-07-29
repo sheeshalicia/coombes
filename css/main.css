@@ -110,7 +110,7 @@ html{
 body{
   font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #333333;  /***dark grey****/
+  color: #333333;
 }
 
 a{
@@ -125,7 +125,7 @@ h1{
 
 h2{
   font-size: 2em;
-  color: #b42a4c; /***dark pink****/
+  color: #b42a4c;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
   padding: 30px 0;
@@ -170,6 +170,10 @@ img{
 
 .portfolio{
   background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* ==Base Header & Footer Styles== */
@@ -196,13 +200,13 @@ header .content-wrapper{
 /* ==Mobile Styles== */
 
 header h1{
-  font-size: 1.75em;
+  font-size: 2em;
   margin-right: 10px;
   text-align: right;
   line-height: 0%;
 }
 
-header h2{
+.hero-area h2{
   margin-right: 10px;
   font-size: 1em;
   line-height: 0%;
@@ -215,6 +219,10 @@ h2, h3{
 .project-content-wrapper{
   width: 90%;
   padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .middle-project-content-wrapper{
@@ -222,6 +230,10 @@ h2, h3{
   border-top: 1px #c0c0c0 solid;
   border-bottom: 1px #c0c0c0 solid;
   padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .project-image{
@@ -389,13 +401,19 @@ header .content-wrapper{
 
 header h1{
   font-size: 2.5em;
+  margin-right: 10px;
+}
+
+.hero-area h2{
   margin-right: 30px;
+  font-size: 1.25em;
+  line-height: 0%;
 }
 
 .project-content-wrapper, .middle-project-content-wrapper, .project-text{
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .project-image{
@@ -450,7 +468,13 @@ header .content-wrapper{
 
 header h1{
   font-size: 4em;
-  margin-right: 100px;
+  margin-right: 50px;
+}
+
+.hero-area h2{
+  margin-right: 30px;
+  font-size: 2em;
+  line-height: 0%;
 }
 
 h2{
