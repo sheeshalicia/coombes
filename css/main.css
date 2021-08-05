@@ -92,7 +92,7 @@ textarea {
  border: 1px red solid;
 }
 
-.project-content-wrapper, .middle-project-content-wrapper, .project-title{
+.project-content-wrapper, .project-title{
   border: 1px blue solid;
 }
 
@@ -218,17 +218,6 @@ h2, h3{
 
 .project-content-wrapper{
   width: 90%;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.middle-project-content-wrapper{
-  width: 90%;
-  border-top: 1px #c0c0c0 solid;
-  border-bottom: 1px #c0c0c0 solid;
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -412,7 +401,7 @@ header h1{
   line-height: 0%;
 }
 
-.project-content-wrapper, .middle-project-content-wrapper, .project-text{
+.project-content-wrapper, .project-text{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -494,7 +483,7 @@ h4{
 p{
   font-size: 1.375em;
 }
-.project-content-wrapper, .middle-project-content-wrapper{
+.project-content-wrapper{
   align-items: center;
   justify-content: space-between;
 }
