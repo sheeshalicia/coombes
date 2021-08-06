@@ -150,7 +150,7 @@ p{
   line-height: 1.185;
   font-weight: 300;
   color: #333333;
-  padding: 0;
+  padding: 0 10px;
   margin: 10px 0 10px 0;
 }
 
@@ -176,7 +176,35 @@ img{
   flex-flow: row wrap;
 }
 
-/* ==Base Header & Footer Styles== */
+/* ==Base Nav, Header & Footer Styles== */
+
+nav{
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li{
+  list-style-type: none;
+  color: #b42a4c;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  padding-left: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #333333
+}
+
+nav ul li:hover a{
+  color: #b42a4c
+}
 
 footer {
   width: 100%;
@@ -191,25 +219,38 @@ header .content-wrapper{
   background-position: center;
   width: 100%;
   margin: 0 auto;
-  min-height: 400px;
+  min-height: 500px;
   width: 100%;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
 }
+
+
 
 /* ==Mobile Styles== */
 
 header h1{
   font-size: 2em;
-  margin-right: 10px;
   text-align: right;
-  line-height: 0%;
+  margin: 0 10px 0 0;
+  line-height: 1em;
+  width: 90%
 }
 
-.hero-area h2{
-  margin-right: 10px;
+header h2{
+  text-align: right;
   font-size: 1em;
-  line-height: 0%;
+  padding: 0 10px 0 0;
+  width: 90%;
+}
+
+.hero-area{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 h2, h3{
@@ -219,15 +260,20 @@ h2, h3{
 .project-content-wrapper{
   width: 90%;
   padding: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
 }
 
 .project-image{
-  width: 90%;
-  padding-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #333333;
+}
+
+.project-image:hover{
+  border: 2px solid #b42a4c;
+  opacity: .5;
+}
+
+.project-title{
+  padding: 0 10px;
 }
 
 .about .headshot{
