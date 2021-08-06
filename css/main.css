@@ -234,7 +234,7 @@ header h1{
   font-size: 2em;
   text-align: right;
   margin: 0 10px 0 0;
-  line-height: 1em;
+  line-height: 1.5em;
   width: 90%
 }
 
@@ -279,8 +279,21 @@ h2, h3{
 .about .headshot{
   display: flex;
   align-items: center;
-  width: 90%;
-  padding: 20px 0;
+}
+
+.about .headshot img{
+  max-width: 100%;
+  padding: 10px 0;
+}
+
+.about .headshot{
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.intro{
+  width: 100%;
 }
 
 .services{
@@ -431,6 +444,11 @@ footer .content-wrapper{
   padding: 30px 0;
 }
 
+nav ul li{
+  font-size: 1.55em;
+  padding-left: 30px;
+}
+
 header .content-wrapper{
   min-height: 500px;
   max-width: none;
@@ -438,36 +456,41 @@ header .content-wrapper{
 
 header h1{
   font-size: 2.5em;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
-.hero-area h2{
-  margin-right: 30px;
-  font-size: 1.25em;
-  line-height: 0%;
+header h2{
+  font-size: 1.5em;
+  line-height: 1em;
 }
 
-.project-content-wrapper, .project-text{
+.project-content-wrapper, .project-image, .project-text, .project-title, .project-description{
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .project-image{
-  padding: 30px 0;
+  max-width: 45%;
+  align-items: center;
+}
+.project-text{
+  width: 50%;
 }
 
-.project-title, .project-description, .about .bio{
-  width: 49%;
-}
-
-.about .headshot{
-  width: 47%;
+.about .headshot img{
+  max-width: 47%;
   padding-right: 20px;
 }
 
-.about .bio h3{
-  width: 90%;
+.about .headshot{
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+}
+
+.intro{
+  width: 47%;
 }
 
 .services img{
@@ -552,12 +575,15 @@ p{
 }
 
 .about .headshot{
-  width: 45%;
+  width: 100%;
   padding-right: 30px;
 }
 
+.about .headshot img{
+  max-width: 40%;
+
 .about .bio{
-  width: 45%;
+  width: 100%;
 }
 
 .services-content-wrapper{
