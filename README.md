@@ -9,7 +9,7 @@ aliciacoombes.com
   
 ## Acknowledgements
 
- - [header photo and headshot by jcmeyersphotography](https://www.instagram.com/jcmyersphoto/)
+ - [header photo and headshot by jcmyersphotography](https://www.instagram.com/jcmyersphoto/)
  - [skills via Skillcrush](https://www.skillcrush.com)
 
   ## Color Reference
